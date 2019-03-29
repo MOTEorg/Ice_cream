@@ -17,4 +17,7 @@ What is better than ice cream? Sweet and colorful like arts, cold as mathematics
 
 ### Some interesting lectures:
 
-[How an mit research group turned computer code into a modern design medium](https://eyeondesign.aiga.org/how-an-mit-research-group-turned-computer-code-into-a-modern-design-medium/)
+[How an MIT research group turned computer code into a modern design medium](https://eyeondesign.aiga.org/how-an-mit-research-group-turned-computer-code-into-a-modern-design-medium/)
+
+### Intersting software:
+[Processing Foundation](https://github.com/processing)
