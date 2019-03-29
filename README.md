@@ -13,3 +13,8 @@ Software to make calculus in an elegant way, then the result seems like art.
 + **M**: mathematics
 
 What is better than ice cream? Sweet and colorful like arts, cold as mathematics
+
+
+### Some interesting lectures:
+
+[How an mit research group turned computer code into a modern design medium](https://eyeondesign.aiga.org/how-an-mit-research-group-turned-computer-code-into-a-modern-design-medium/)
