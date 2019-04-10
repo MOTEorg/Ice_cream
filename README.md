@@ -19,5 +19,9 @@ What is better than ice cream? Sweet and colorful like arts, cold as mathematics
 
 [How an MIT research group turned computer code into a modern design medium](https://eyeondesign.aiga.org/how-an-mit-research-group-turned-computer-code-into-a-modern-design-medium/)
 
-### Intersting software:
+### Interesting software:
 [Processing Foundation](https://github.com/processing)
+[OpenCV](https://opencv.org/)
+[Qt](https://www.qt.io/)
+[OpenGL](https://www.opengl.org/)
+[Pyo - Python DSP module](https://github.com/belangeo/pyo)
