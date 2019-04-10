@@ -57,7 +57,7 @@ erosion = cv.erode(dilation,kernel_v,iterations = 1)
 r_image=cv.merge([np.zeros((np.shape(edges_image)),np.uint8),original_image[:,:,0],np.zeros((np.shape(edges_image)),np.uint8)])
 
 #8. Blur bilateral filters
-kernel_size=21
+kernel_size=15
 final_image_aux=cv.bilateralFilter(original_image,kernel_size,50,50)
 final_image_r=cv.bilateralFilter(r_image,kernel_size,25,25)
 
@@ -73,8 +73,10 @@ final_image_0=cv.LUT(cv.subtract(final_image_aux[:,:,0],erosion), lookUpTable_ad
 final_image_1=cv.LUT(cv.subtract(final_image_r[:,:,1],erosion), lookUpTable_add)
 final_image_2=cv.LUT(cv.subtract(final_image_aux[:,:,2],erosion), lookUpTable_add)
 
-#8. Add color channels in a single image
-final_image=cv.merge([final_image_0,final_image_1,final_image_2])
+#8. Add color channels in a single image and apply a smooth Gaussian filter
+final_image=cv.GaussianBlur(cv.merge([final_image_0,final_image_1,final_image_2]),(kernel_size,kernel_size),0)
+
+#TODO: Shadows and magazine style
 
 #Show edges and final filtered image
 plt.figure()
