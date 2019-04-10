@@ -6,6 +6,7 @@ Software to make calculus in an elegant way, then the result seems like art.
 + **C**: creative
 + **E**: enviroment
 
+
 + **C**: Calculating
 + **R**: random
 + **E**: entangled
@@ -21,7 +22,11 @@ What is better than ice cream? Sweet and colorful like arts, cold as mathematics
 
 ### Interesting software:
 [Processing Foundation](https://github.com/processing)
+
 [OpenCV](https://opencv.org/)
+
 [Qt](https://www.qt.io/)
+
 [OpenGL](https://www.opengl.org/)
+
 [Pyo - Python DSP module](https://github.com/belangeo/pyo)
